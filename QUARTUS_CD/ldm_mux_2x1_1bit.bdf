@@ -181,7 +181,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 248 160 296 192)
+	(rect 264 184 312 216)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst3" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -204,11 +204,6 @@ applicable agreement for further details.
 		(line (pt 13 25)(pt 31 16))
 		(circle (rect 31 12 39 20))
 	)
-)
-(connector
-	(text "c" (rect 336 144 341 156)(font "Arial" ))
-	(pt 376 160)
-	(pt 336 160)
 )
 (connector
 	(text "c" (rect 336 208 341 220)(font "Arial" ))
@@ -250,12 +245,21 @@ applicable agreement for further details.
 	(pt 360 144)
 )
 (connector
-	(text "e1n" (rect 304 160 321 172)(font "Arial" ))
-	(pt 296 176)
-	(pt 312 176)
+	(pt 248 200)
+	(pt 264 200)
 )
 (connector
-	(text "e1n" (rect 353 192 370 204)(font "Arial" ))
+	(text "cn" (rect 320 184 331 196)(font "Arial" ))
+	(pt 312 200)
+	(pt 328 200)
+)
+(connector
+	(text "cn" (rect 336 144 347 156)(font "Arial" ))
+	(pt 376 160)
+	(pt 336 160)
+)
+(connector
+	(text "e1" (rect 353 192 364 204)(font "Arial" ))
 	(pt 360 208)
 	(pt 376 208)
 )
