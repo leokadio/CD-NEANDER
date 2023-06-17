@@ -49,3 +49,4 @@ QUARTUS_CD/simulation/qsim/work/_vmake
 *.do
 *.vcd
 *.sft
+*.tmw_info
