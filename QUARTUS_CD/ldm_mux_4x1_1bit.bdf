@@ -21,25 +21,9 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -8 40 160 56)
+	(rect -8 88 160 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "e0" (rect 5 0 17 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -8 56 160 72)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "e1" (rect 5 0 17 12)(font "Arial" ))
+	(text "e0" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 72 160 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "e2" (rect 5 0 17 12)(font "Arial" ))
+	(text "e1" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -8 88 160 104)
+	(rect -8 56 160 72)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "e3" (rect 5 0 17 12)(font "Arial" ))
+	(text "e2" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -85,9 +69,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -8 120 160 136)
+	(rect -8 40 160 56)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "c0" (rect 5 0 17 12)(font "Arial" ))
+	(text "e3" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +87,23 @@ applicable agreement for further details.
 	(input)
 	(rect -8 152 160 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "c1" (rect 5 0 17 12)(font "Arial" ))
+	(text "c0" (rect 5 0 16 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -8 120 160 136)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "c1" (rect 5 0 16 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -171,7 +171,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 160 112 208 144)
+	(rect 160 144 208 176)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -313,7 +313,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 160 144 208 176)
+	(rect 160 112 208 144)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst8" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -385,16 +385,6 @@ applicable agreement for further details.
 		(arc (pt 49 40)(pt 25 29)(rect -6 29 57 92))
 		(arc (pt 25 51)(pt 49 40)(rect -6 -11 57 52))
 	)
-)
-(connector
-	(text "c0n" (rect 216 112 233 124)(font "Arial" ))
-	(pt 208 128)
-	(pt 232 128)
-)
-(connector
-	(text "c1n" (rect 216 144 233 156)(font "Arial" ))
-	(pt 208 160)
-	(pt 232 160)
 )
 (connector
 	(text "e0" (rect 307 56 318 68)(font "Arial" ))
@@ -500,4 +490,14 @@ applicable agreement for further details.
 	(text "s3" (rect 639 120 650 132)(font "Arial" ))
 	(pt 656 136)
 	(pt 640 136)
+)
+(connector
+	(text "c1n" (rect 216 112 233 124)(font "Arial" ))
+	(pt 208 128)
+	(pt 232 128)
+)
+(connector
+	(text "c0n" (rect 216 144 233 156)(font "Arial" ))
+	(pt 208 160)
+	(pt 232 160)
 )
