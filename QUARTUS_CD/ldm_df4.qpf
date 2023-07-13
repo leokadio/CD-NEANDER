@@ -18,13 +18,13 @@
 #
 # Quartus II 64-Bit
 # Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-# Date created = 14:12:22  June 07, 2023
+# Date created = 14:04:55  July 12, 2023
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.1"
-DATE = "14:12:22  June 07, 2023"
+DATE = "14:04:55  July 12, 2023"
 
 # Revisions
 
-PROJECT_REVISION = "ldm_decod_4x16"
+PROJECT_REVISION = "ldm_df4"
