@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 208 336 376 352)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Ck" (rect 5 0 20 12)(font "Arial" ))
+	(text "Ck" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 208 352 376 368)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "R" (rect 5 0 14 12)(font "Arial" ))
+	(text "R" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -322,19 +322,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "Ck" (rect 432 408 446 420)(font "Arial" ))
-	(pt 456 424)
-	(pt 424 424)
-)
-(connector
 	(text "R" (rect 440 424 448 436)(font "Arial" ))
 	(pt 456 440)
 	(pt 432 440)
-)
-(connector
-	(text "Ck" (rect 432 520 446 532)(font "Arial" ))
-	(pt 424 536)
-	(pt 456 536)
 )
 (connector
 	(text "R" (rect 440 536 448 548)(font "Arial" ))
@@ -342,29 +332,14 @@ applicable agreement for further details.
 	(pt 456 552)
 )
 (connector
-	(text "Ck" (rect 432 632 446 644)(font "Arial" ))
-	(pt 456 648)
-	(pt 424 648)
-)
-(connector
 	(text "R" (rect 440 648 448 660)(font "Arial" ))
 	(pt 456 664)
 	(pt 432 664)
 )
 (connector
-	(text "Ck" (rect 432 744 446 756)(font "Arial" ))
-	(pt 456 760)
-	(pt 424 760)
-)
-(connector
 	(text "R" (rect 440 760 448 772)(font "Arial" ))
 	(pt 456 776)
 	(pt 432 776)
-)
-(connector
-	(text "Ck" (rect 432 856 446 868)(font "Arial" ))
-	(pt 456 872)
-	(pt 424 872)
 )
 (connector
 	(text "R" (rect 440 872 448 884)(font "Arial" ))
@@ -430,4 +405,29 @@ applicable agreement for further details.
 	(pt 568 888)
 	(pt 600 888)
 	(bus)
+)
+(connector
+	(text "Q3" (rect 432 408 446 420)(font "Arial" ))
+	(pt 456 424)
+	(pt 424 424)
+)
+(connector
+	(text "Q7" (rect 432 520 446 532)(font "Arial" ))
+	(pt 424 536)
+	(pt 456 536)
+)
+(connector
+	(text "Q11" (rect 432 632 452 644)(font "Arial" ))
+	(pt 456 648)
+	(pt 424 648)
+)
+(connector
+	(text "Q15" (rect 432 744 452 756)(font "Arial" ))
+	(pt 456 760)
+	(pt 424 760)
+)
+(connector
+	(text "Q19" (rect 432 856 452 868)(font "Arial" ))
+	(pt 456 872)
+	(pt 424 872)
 )
