@@ -72,7 +72,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 88 192 264 208)
+	(rect -264 120 -88 136)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Cki" (rect 90 0 106 12)(font "Arial" ))
 	(pt 0 8)
