@@ -54,3 +54,6 @@ QUARTUS_CD/simulation/qsim/work/_vmake
 *.sdo
 *.vho
 *.cdf
+*.tmw_info
+*.tmw_info
+*.tmw_info

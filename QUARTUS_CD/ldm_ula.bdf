@@ -613,39 +613,15 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "y[7..0]" (rect 373 328 406 340)(font "Arial" ))
-	(pt 448 344)
-	(pt 368 344)
-	(bus)
-)
-(connector
 	(text "c[2..0]" (rect 376 344 407 356)(font "Arial" ))
 	(pt 448 360)
 	(pt 368 360)
 	(bus)
 )
 (connector
-	(text "tempor[7..0]" (rect 376 280 436 292)(font "Arial" ))
-	(pt 368 296)
-	(pt 448 296)
-	(bus)
-)
-(connector
 	(text "minusx[7..0]" (rect 376 248 437 260)(font "Arial" ))
 	(pt 448 264)
 	(pt 368 264)
-	(bus)
-)
-(connector
-	(text "tempand[7..0]" (rect 376 296 444 308)(font "Arial" ))
-	(pt 368 312)
-	(pt 448 312)
-	(bus)
-)
-(connector
-	(text "xn[7..0]" (rect 376 312 413 324)(font "Arial" ))
-	(pt 368 328)
-	(pt 448 328)
 	(bus)
 )
 (connector
@@ -682,12 +658,6 @@ applicable agreement for further details.
 	(text "yn[7..0]" (rect 312 72 350 84)(font "Arial" ))
 	(pt 320 88)
 	(pt 304 88)
-	(bus)
-)
-(connector
-	(text "sum[7..0]" (rect 376 264 423 276)(font "Arial" ))
-	(pt 448 280)
-	(pt 368 280)
 	(bus)
 )
 (connector
@@ -832,5 +802,35 @@ applicable agreement for further details.
 	(text "tempand[7..0]" (rect 545 64 613 76)(font "Arial" ))
 	(pt 544 80)
 	(pt 576 80)
+	(bus)
+)
+(connector
+	(text "y[7..0]" (rect 373 328 406 340)(font "Arial" ))
+	(pt 448 344)
+	(pt 368 344)
+	(bus)
+)
+(connector
+	(text "sum[7..0]" (rect 376 312 423 324)(font "Arial" ))
+	(pt 448 328)
+	(pt 368 328)
+	(bus)
+)
+(connector
+	(text "tempor[7..0]" (rect 376 296 436 308)(font "Arial" ))
+	(pt 368 312)
+	(pt 448 312)
+	(bus)
+)
+(connector
+	(text "tempand[7..0]" (rect 376 280 444 292)(font "Arial" ))
+	(pt 368 296)
+	(pt 448 296)
+	(bus)
+)
+(connector
+	(text "xn[7..0]" (rect 376 264 413 276)(font "Arial" ))
+	(pt 448 280)
+	(pt 368 280)
 	(bus)
 )

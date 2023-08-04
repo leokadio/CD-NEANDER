@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 -232 184 -216)
+	(rect 16 -248 184 -232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "e_or" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
@@ -85,7 +85,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 16 -248 184 -232)
+	(rect 16 -232 184 -216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "e_and" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
@@ -390,7 +390,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 200 -144 248 -112)
+	(rect 184 -144 232 -112)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst2" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -1886,6 +1886,39 @@ applicable agreement for further details.
 		(circle (rect 31 12 39 20))
 	)
 )
+(symbol
+	(rect 328 264 392 312)
+	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 37 26 49)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 15 32))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 15 16))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 14 36)(pt 25 36))
+		(line (pt 14 13)(pt 25 13))
+		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
+		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
+		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
+	)
+)
 (connector
 	(text "zn" (rect 240 -320 250 -308)(font "Arial" ))
 	(pt 232 -304)
@@ -1899,15 +1932,6 @@ applicable agreement for further details.
 (connector
 	(pt 184 -336)
 	(pt 184 -320)
-)
-(connector
-	(pt 184 -128)
-	(pt 200 -128)
-)
-(connector
-	(text "Rn" (rect 256 -144 270 -132)(font "Arial" ))
-	(pt 248 -128)
-	(pt 264 -128)
 )
 (connector
 	(pt 304 -248)
@@ -2032,11 +2056,6 @@ applicable agreement for further details.
 	(text "nz0" (rect 89 440 105 452)(font "Arial" ))
 	(pt 104 456)
 	(pt 88 456)
-)
-(connector
-	(text "goto_t0" (rect 304 264 340 276)(font "Arial" ))
-	(pt 296 280)
-	(pt 312 280)
 )
 (connector
 	(pt 168 256)
@@ -2624,5 +2643,25 @@ applicable agreement for further details.
 	(text "cg_ri" (rect 1176 -184 1199 -172)(font "Arial" ))
 	(pt 1168 -168)
 	(pt 1184 -168)
+)
+(connector
+	(text "<<__$DEF_ALIAS159>>" (rect 320 264 438 276)(font "Arial" )(invisible))
+	(pt 296 280)
+	(pt 328 280)
+)
+(connector
+	(text "t7" (rect 320 280 329 292)(font "Arial" ))
+	(pt 328 296)
+	(pt 312 296)
+)
+(connector
+	(text "goto_t0" (rect 400 272 436 284)(font "Arial" ))
+	(pt 392 288)
+	(pt 408 288)
+)
+(connector
+	(text "Rn" (rect 240 -144 254 -132)(font "Arial" ))
+	(pt 232 -128)
+	(pt 248 -128)
 )
 (text "Temporizador" (rect 320 40 397 54)(font "Arial" (font_size 8)))

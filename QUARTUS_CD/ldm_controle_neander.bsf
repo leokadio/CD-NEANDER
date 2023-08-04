@@ -61,15 +61,15 @@ applicable agreement for further details.
 	(port
 		(pt 0 112)
 		(input)
-		(text "e_and" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "e_and" (rect 21 107 56 121)(font "Arial" (font_size 8)))
+		(text "e_or" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "e_or" (rect 21 107 46 121)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
 		(pt 0 128)
 		(input)
-		(text "e_or" (rect 0 0 25 14)(font "Arial" (font_size 8)))
-		(text "e_or" (rect 21 123 46 137)(font "Arial" (font_size 8)))
+		(text "e_and" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "e_and" (rect 21 123 56 137)(font "Arial" (font_size 8)))
 		(line (pt 0 128)(pt 16 128))
 	)
 	(port
