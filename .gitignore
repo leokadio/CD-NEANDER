@@ -43,7 +43,7 @@ QUARTUS_CD/simulation/qsim/transcript
 QUARTUS_CD/simulation/qsim/work/_info
 QUARTUS_CD/simulation/qsim/work/_vmake
 *.dbs
-*.vhd
+.vhd
 *.prw
 *.psm
 *.do
