@@ -2194,11 +2194,6 @@ applicable agreement for further details.
 	(pt 1136 -48)
 )
 (connector
-	(text "0" (rect 1114 -64 1119 -52)(font "Arial" ))
-	(pt 1136 -48)
-	(pt 1120 -48)
-)
-(connector
 	(text "inc_pc" (rect 1184 -24 1215 -12)(font "Arial" ))
 	(pt 1184 -8)
 	(pt 1168 -8)
@@ -2215,11 +2210,6 @@ applicable agreement for further details.
 (connector
 	(pt 1136 -192)
 	(pt 1136 -208)
-)
-(connector
-	(text "0" (rect 1114 -224 1119 -212)(font "Arial" ))
-	(pt 1136 -208)
-	(pt 1120 -208)
 )
 (connector
 	(text "Ck" (rect 1080 -144 1094 -132)(font "Arial" ))
@@ -2239,11 +2229,6 @@ applicable agreement for further details.
 (connector
 	(pt 1136 128)
 	(pt 1136 112)
-)
-(connector
-	(text "0" (rect 1114 96 1119 108)(font "Arial" ))
-	(pt 1136 112)
-	(pt 1120 112)
 )
 (connector
 	(pt 1136 208)
@@ -2344,11 +2329,6 @@ applicable agreement for further details.
 (connector
 	(pt 1136 288)
 	(pt 1136 272)
-)
-(connector
-	(text "0" (rect 1114 256 1119 268)(font "Arial" ))
-	(pt 1136 272)
-	(pt 1120 272)
 )
 (connector
 	(pt 1104 312)
@@ -2463,15 +2443,6 @@ applicable agreement for further details.
 	(pt 1520 -112)
 )
 (connector
-	(pt 1536 -208)
-	(pt 1536 -224)
-)
-(connector
-	(text "0" (rect 1514 -240 1519 -228)(font "Arial" ))
-	(pt 1536 -224)
-	(pt 1520 -224)
-)
-(connector
 	(pt 1472 -184)
 	(pt 1504 -184)
 )
@@ -2526,11 +2497,6 @@ applicable agreement for further details.
 	(pt 1536 -64)
 )
 (connector
-	(text "0" (rect 1514 -80 1519 -68)(font "Arial" ))
-	(pt 1536 -64)
-	(pt 1520 -64)
-)
-(connector
 	(pt 1536 32)
 	(pt 1536 48)
 )
@@ -2557,11 +2523,6 @@ applicable agreement for further details.
 (connector
 	(pt 1536 112)
 	(pt 1536 96)
-)
-(connector
-	(text "0" (rect 1514 80 1519 92)(font "Arial" ))
-	(pt 1536 96)
-	(pt 1520 96)
 )
 (connector
 	(pt 1536 192)
@@ -2621,11 +2582,6 @@ applicable agreement for further details.
 	(pt -104 136)
 )
 (connector
-	(text "R" (rect -119 144 -111 156)(font "Arial" ))
-	(pt -88 152)
-	(pt -104 152)
-)
-(connector
 	(pt 8 120)
 	(pt 48 120)
 )
@@ -2635,11 +2591,6 @@ applicable agreement for further details.
 	(pt 48 136)
 )
 (connector
-	(text "R" (rect 20 144 28 156)(font "Arial" ))
-	(pt 32 152)
-	(pt 48 152)
-)
-(connector
 	(pt 144 120)
 	(pt 184 120)
 )
@@ -2647,11 +2598,6 @@ applicable agreement for further details.
 	(text "Ck" (rect 147 128 161 140)(font "Arial" ))
 	(pt 168 136)
 	(pt 184 136)
-)
-(connector
-	(text "R" (rect 148 144 156 156)(font "Arial" ))
-	(pt 184 152)
-	(pt 168 152)
 )
 (connector
 	(text "t_raw0" (rect 15 88 46 100)(font "Arial" ))
@@ -2667,5 +2613,59 @@ applicable agreement for further details.
 	(text "t_raw2" (rect 288 88 319 100)(font "Arial" ))
 	(pt 296 104)
 	(pt 280 104)
+)
+(connector
+	(text "1" (rect 1114 -224 1119 -212)(font "Arial" ))
+	(pt 1136 -208)
+	(pt 1120 -208)
+)
+(connector
+	(text "1" (rect 1114 -64 1119 -52)(font "Arial" ))
+	(pt 1136 -48)
+	(pt 1120 -48)
+)
+(connector
+	(text "1" (rect 1114 96 1119 108)(font "Arial" ))
+	(pt 1136 112)
+	(pt 1120 112)
+)
+(connector
+	(text "1" (rect 1114 256 1119 268)(font "Arial" ))
+	(pt 1136 272)
+	(pt 1120 272)
+)
+(connector
+	(pt 1536 -208)
+	(pt 1536 -232)
+)
+(connector
+	(text "1" (rect 1514 -248 1519 -236)(font "Arial" ))
+	(pt 1536 -232)
+	(pt 1520 -232)
+)
+(connector
+	(text "1" (rect 1514 -80 1519 -68)(font "Arial" ))
+	(pt 1536 -64)
+	(pt 1520 -64)
+)
+(connector
+	(text "1" (rect 1514 80 1519 92)(font "Arial" ))
+	(pt 1536 96)
+	(pt 1520 96)
+)
+(connector
+	(text "R" (rect 148 144 156 156)(font "Arial" ))
+	(pt 184 152)
+	(pt 168 152)
+)
+(connector
+	(text "R" (rect 12 144 20 156)(font "Arial" ))
+	(pt 32 152)
+	(pt 48 152)
+)
+(connector
+	(text "R" (rect -119 144 -111 156)(font "Arial" ))
+	(pt -88 152)
+	(pt -104 152)
 )
 (text "Temporizador" (rect 320 40 397 54)(font "Arial" (font_size 8)))
