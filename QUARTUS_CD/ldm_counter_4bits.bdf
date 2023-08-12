@@ -525,16 +525,6 @@ applicable agreement for further details.
 	(pt 1080 336)
 )
 (connector
-	(text "Q0" (rect 1267 288 1281 300)(font "Arial" ))
-	(pt 1288 304)
-	(pt 1272 304)
-)
-(connector
-	(text "A0" (rect 1264 304 1276 316)(font "Arial" ))
-	(pt 1288 320)
-	(pt 1272 320)
-)
-(connector
 	(text "C[1..0]" (rect 1256 336 1290 348)(font "Arial" ))
 	(pt 1288 352)
 	(pt 1272 352)
@@ -636,4 +626,14 @@ applicable agreement for further details.
 	(pt 1072 160)
 	(pt 1088 160)
 	(bus)
+)
+(connector
+	(text "A2" (rect 1264 304 1276 316)(font "Arial" ))
+	(pt 1288 320)
+	(pt 1272 320)
+)
+(connector
+	(text "Q2" (rect 1267 288 1281 300)(font "Arial" ))
+	(pt 1288 304)
+	(pt 1272 304)
 )

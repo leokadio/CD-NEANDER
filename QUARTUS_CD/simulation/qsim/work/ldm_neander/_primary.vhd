@@ -15,8 +15,10 @@ entity ldm_neander is
         e_rem           : out    vl_logic_vector(7 downto 0);
         mux_rem         : out    vl_logic;
         s_cont          : out    vl_logic_vector(7 downto 0);
+        Cpc             : out    vl_logic_vector(1 downto 0);
         inc_pc          : out    vl_logic;
         cg_pc           : out    vl_logic;
+        s_ac            : out    vl_logic_vector(15 downto 0);
         cg_ac           : out    vl_logic
     );
 end ldm_neander;
