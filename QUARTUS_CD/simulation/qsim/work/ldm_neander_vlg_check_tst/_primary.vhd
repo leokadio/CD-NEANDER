@@ -18,6 +18,7 @@ entity ldm_neander_vlg_check_tst is
         s_mem           : in     vl_logic_vector(7 downto 0);
         s_rdm           : in     vl_logic_vector(7 downto 0);
         s_ri            : in     vl_logic_vector(7 downto 0);
+        s_ula           : in     vl_logic_vector(7 downto 0);
         sampler_rx      : in     vl_logic
     );
 end ldm_neander_vlg_check_tst;
