@@ -3,12 +3,14 @@ use verilog.vl_types.all;
 entity ldm_neander is
     port(
         cg_rem          : out    vl_logic;
+        s_ac            : out    vl_logic_vector(7 downto 0);
+        cg_ac           : out    vl_logic;
+        Ck              : in     vl_logic;
+        R               : in     vl_logic;
         s_ula           : out    vl_logic_vector(7 downto 0);
         s_decod         : out    vl_logic_vector(15 downto 0);
         s_ri            : out    vl_logic_vector(7 downto 0);
         cg_ri           : out    vl_logic;
-        Ck              : in     vl_logic;
-        R               : in     vl_logic;
         s_rdm           : out    vl_logic_vector(7 downto 0);
         cg_rdm          : out    vl_logic;
         s_mem           : out    vl_logic_vector(7 downto 0);
@@ -19,7 +21,6 @@ entity ldm_neander is
         Cpc             : out    vl_logic_vector(1 downto 0);
         inc_pc          : out    vl_logic;
         cg_pc           : out    vl_logic;
-        s_ac            : out    vl_logic_vector(15 downto 0);
-        cg_ac           : out    vl_logic
+        t               : out    vl_logic_vector(2 downto 0)
     );
 end ldm_neander;

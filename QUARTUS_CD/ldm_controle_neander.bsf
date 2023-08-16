@@ -163,6 +163,13 @@ applicable agreement for further details.
 		(text "mux_rem" (rect 72 123 123 137)(font "Arial" (font_size 8)))
 		(line (pt 144 128)(pt 128 128))
 	)
+	(port
+		(pt 144 144)
+		(output)
+		(text "traw[2..0]" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "traw[2..0]" (rect 68 139 123 153)(font "Arial" (font_size 8)))
+		(line (pt 144 144)(pt 128 144)(line_width 3))
+	)
 	(drawing
 		(rectangle (rect 16 16 128 240))
 	)
