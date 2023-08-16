@@ -6,7 +6,6 @@ entity ldm_controle_neander is
         R               : in     vl_logic;
         Ck              : in     vl_logic;
         t_raw           : out    vl_logic_vector(2 downto 0);
-        goto_t0         : out    vl_logic;
         e_nop           : in     vl_logic;
         e_jn            : in     vl_logic;
         n               : in     vl_logic;
