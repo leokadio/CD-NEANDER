@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 304 24 472 40)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Ck" (rect 5 0 20 12)(font "Arial" ))
+	(text "Ck" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,12 +34,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 248 40 304 56))
 )
 (pin
 	(input)
 	(rect 304 40 472 56)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "R" (rect 5 0 14 12)(font "Arial" ))
+	(text "R" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -50,6 +51,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 256 56 304 72))
 )
 (pin
 	(output)
@@ -66,6 +68,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 784 48 840 64))
 )
 (pin
 	(output)
@@ -82,6 +85,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 784 64 840 80))
 )
 (pin
 	(output)
@@ -98,12 +102,30 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 784 96 840 112))
 )
 (pin
 	(output)
 	(rect 608 64 784 80)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "disp_rdmg[6..0]" (rect 90 0 166 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 784 80 840 96))
+)
+(pin
+	(output)
+	(rect 608 16 784 32)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Q23" (rect 90 0 110 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -283,6 +305,30 @@ applicable agreement for further details.
 	)
 )
 (symbol
+	(rect 512 368 560 400)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst7" (rect 3 21 26 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
 	(rect 480 400 512 432)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 21 26 33)(font "Arial" )(invisible))
@@ -332,12 +378,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "t[2..0]" (rect 649 160 678 172)(font "Arial" ))
-	(pt 648 176)
-	(pt 664 176)
-	(bus)
-)
-(connector
 	(text "rdm[7..0]" (rect 658 176 702 188)(font "Arial" ))
 	(pt 648 192)
 	(pt 664 192)
@@ -352,11 +392,6 @@ applicable agreement for further details.
 (connector
 	(pt 496 384)
 	(pt 496 400)
-)
-(connector
-	(text "t3" (rect 497 368 506 380)(font "Arial" ))
-	(pt 496 384)
-	(pt 512 384)
 )
 (connector
 	(text "t[3..0]" (rect 768 248 797 260)(font "Arial" ))
@@ -399,4 +434,20 @@ applicable agreement for further details.
 	(pt 944 496)
 	(pt 960 496)
 	(bus)
+)
+(connector
+	(text "t[2..0]" (rect 649 160 678 172)(font "Arial" ))
+	(pt 648 176)
+	(pt 664 176)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS27>>" (rect 497 368 609 380)(font "Arial" )(invisible))
+	(pt 496 384)
+	(pt 512 384)
+)
+(connector
+	(text "t3" (rect 568 368 577 380)(font "Arial" ))
+	(pt 560 384)
+	(pt 576 384)
 )
